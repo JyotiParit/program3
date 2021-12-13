@@ -2,11 +2,12 @@
 var person={
     firstName:"Tejashree",
     lastName:"Parit",
+    age:"08",
     fullName:function()
     {
         console.log(this.firstName+" "+this.lastName);
         console.log(person.firstName+" "+person.lastName);
-
+        console.log(this.age+""); 
     } 
 
 }
